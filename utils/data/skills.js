@@ -1,25 +1,32 @@
 export const skillsData = [
+  // 🔥 Most Used Skills
   'HTML',
   'CSS',
   'Javascript',
-  'Typescript',
   'React',
   'Next JS',
   'Tailwind',
+  'NodeJS',
+  'Express',
   'MongoDB',
-  'MySQL',
-  'PostgreSQL',
-  'Git',
   'AWS',
+  'Azure',
+  'Git',
+
+  // 🎯 Other Skills You Actually Use
   'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
-]
+  'Python',
+  'Pandas',
+  'C++',
+  'Java',
+  'Bcrypt',
+  'CPLEX',
+  'Arena',
+  'PowerBI',
+  'ChatGPT',
+  'Azure Pipelines'
+];
+
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
