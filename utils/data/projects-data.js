@@ -1,42 +1,83 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+	{
+		id: 1,
+		name: "AI-Powered Real-Time Call Analyzer",
+		description:
+			"Developed an end-to-end AI-driven voice analysis platform for healthcare RCM call auditing and agent assistance. The system includes a React + Tailwind dashboard, real-time audio transcription using Groq Whisper, automated core-audit scoring, denial scenario detection, coaching insights, and risk alerts. Built a FastAPI backend with REST + WebSocket support, MongoDB-based dynamic prompt management, auto-analysis mode for periodic folder scanning, and detailed structured reporting. Also implemented a real-time Agent Assist module that streams transcripts, detects payer denial patterns through rule-based logic, and generates 3–5 AI resolution prompts per scenario.",
+		tools: [
+			"React",
+			"Tailwind CSS",
+			"Framer Motion",
+			"FastAPI",
+			"MongoDB",
+			"Groq Whisper API",
+			"OpenAI API",
+			"WebSockets",
+			"Uvicorn",
+			"Python",
+			"Docker",
+			"Render",
+			"Netlify",
+		],
+		role: "Full Stack Developer Intern",
+		code: "",
+		demo: "",
+	},
+	{
+		id: 2,
+		name: "Fest Management Platform | OPTIMA 2025",
+		description:
+			"I developed a full-stack fest management platform for the Industrial and Systems Engineering Department at IIT Kharagpur. The website was built using the MERN stack and deployed on Microsoft Azure, serving over 28,000 visitors. I implemented secure JWT-based authentication with bcrypt and middleware, enabling verified access for 700+ registered users. Additionally, I built a scalable Admin Portal using Node.js and MongoDB to offer real-time data management, event oversight, and role-based accessibility for organizers.",
+		tools: [
+			"MongoDB",
+			"Express.js",
+			"React.js",
+			"Node.js",
+			"Azure",
+			"JWT",
+			"bcrypt",
+			"Role-Based Access Control",
+		],
+		role: "Tech. Head",
+		code: "",
+		demo: "",
+	},
+	{
+		id: 3,
+		name: "Talent Acquisition Portal",
+		description:
+			"I worked as a Frontend Development Intern at Emiant Innovations Pvt Ltd, where I contributed to refining their official website and developing an intelligent recruitment platform. I upgraded the Emiant official website (10,000+ annual viewers) using Embedded JS and enhanced the UI with Canva-based design elements. Additionally, I built a Talent Acquisition Management (TAM) Portal using the MERN stack, integrating a JavaScript-driven intelligent filtration system that reduced the hiring cycle time by 30%.",
+		tools: [
+			"Embedded JS",
+			"MERN Stack",
+			"JavaScript",
+			"MongoDB",
+			"React.js",
+			"Node.js",
+			"Express.js",
+			"Canva UI Elements",
+		],
+		role: "Frontend Developer Intern",
+		code: "",
+		demo: "",
+	},
+	{
+		id: 4,
+		name: "Optimization Model for Cargo Distribution",
+		description:
+			"I developed a profit-maximizing linear optimization model for efficient cargo distribution across multiple compartments as part of the Operations Research Lab course project. The model was formulated and implemented using the Optimization Programming Language (OPL) in IBM CPLEX Optimization Studio. I encoded realistic weight–volume capacity constraints to ensure feasible allocation while preventing overload or mismatch errors. The optimized solution was further tested using Arena simulation, resulting in a 35% improvement in profitability compared to the baseline setup.",
+		tools: [
+			"IBM CPLEX",
+			"OPL (Optimization Programming Language)",
+			"Arena Simulation",
+			"Operations Research Modeling",
+			"Linear Programming",
+		],
+		role: "Student",
+		code: "",
+		demo: "",
+	},
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
