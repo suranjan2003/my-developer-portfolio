@@ -7,7 +7,7 @@ export const personalData = {
   phone: '+91-6296048524',
   address: 'IIT Kharagpur, West Bengal, India',
   github: 'https://github.com/suranjan2003',
-  facebook: 'https://www.facebook.com/',
+  facebook: 'https://www.facebook.com/profile.php?id=61555166021862',
   linkedIn: 'https://www.linkedin.com/in/suranjan-karmakar1207',
   twitter: 'https://twitter.com/',
   stackOverflow: 'https://stackoverflow.com/',
